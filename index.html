@@ -1,0 +1,93 @@
+<!DOCTYPE html>  
+<html>
+<head>
+	<title>Animations Move</title>
+	<style>
+		div
+		{
+			background-color: orange;
+			color: white;
+			position: relative;
+			padding: 30px;
+			width: 70px;
+			border-radius: 50%;  
+			/*border-top: 20px solid red;*/
+			/*border-bottom: 20px solid red;*/
+			/*border-left: 20px solid green;*/
+			/*border-right: 20px solid green;*/
+			text-align: center;
+			font-size: 20px;
+			animation-name: rrr;
+			animation-duration: 5s;  
+			animation-timing-function: linear;
+			animation-delay: 0s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		@keyframes rrr
+		{
+			0%
+			{
+				top: 0px;
+				left: 0px; 
+				background-color: orange; 
+				color: green;  
+			}
+			14.28%
+			{
+				top: 480px;
+				left: 174.85px;
+				background-color: blue;
+				color: white;
+			}
+			28.56%
+			{
+				top: 40px;
+				left: 349.7px;
+				background-color: green;
+				color: orange;
+			}
+			42.84%
+			{
+				top: 450px;
+				left: 524.55px;
+				background-color: purple;
+				color: yellow;
+			}
+			57.12%
+			{
+				top: 300px;
+				left: 699.4px;
+				background-color: magenta;
+				color: blue;
+			}
+			71.4%
+			{
+				top:480px;
+				left:874.25px;
+				background-color: cyan;
+				color: chocolate;
+			}
+			95.68%
+			{
+				top: 40px;
+				left: 1049.1px;
+				background-color: chocolate;
+				color: purple;
+			}
+			100%
+			{
+				top: 260px;
+				left: 1224px;
+				background-color: chocolate;
+				color: purple;
+			}
+		}
+	</style>     
+</head>
+<body>
+  	<div>
+  		<p>Hero</p>
+  	</div> 
+</body>
+</html>
